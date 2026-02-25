@@ -5,31 +5,36 @@
 }
 
 body {
-  background: #111;
+  background: #0f172a;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
 }
 
-/* Full screen hero */
 .hero {
   height: 100vh;
   position: relative;
-  background: linear-gradient(to right, #39d353 20%, #1a1a1a 20%);
+  background: linear-gradient(to right, #1e293b 25%, #0f172a 25%);
+  display: flex;
+  align-items: center;
 }
 
-/* Car (orange box) */
-.car {
-  width: 150px;
-  height: 80px;
-  background: orange;
+.road {
   position: absolute;
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(90deg, #111827, #1f2937);
   top: 50%;
-  left: -20%;
   transform: translateY(-50%);
-  border-radius: 10px;
 }
 
-/* Extra scroll space */
+.car {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: -25%;
+  transform: translateY(-50%);
+}
+
 .spacer {
   height: 200vh;
 }
