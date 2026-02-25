@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Full screen hero */
+.hero {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(to right, #39d353 20%, #1a1a1a 20%);
+}
+
+/* Car (orange box) */
+.car {
+  width: 150px;
+  height: 80px;
+  background: orange;
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+/* Extra scroll space */
+.spacer {
+  height: 200vh;
+}
